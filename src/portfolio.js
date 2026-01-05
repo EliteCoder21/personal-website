@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/EliteCoder21",
   linkedin: "www.linkedin.com/in/aaryan-pawar-548553329",
-  email_address: "reachaaryanpawar@outlook.com",
+  email_address: "",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   display: true // Set true to display this section, defaults to false
@@ -227,7 +227,7 @@ const workExperiences = {
     {
       role: "President & Lead Instructor",
       company: "Interlake Computer Vision Club",
-      companylogo: require("./assets/images/interlakeLogo.png"),
+      companylogo: require("./assets/images/interlakeLogo.jpg"),
       date: "September 2022 – June 2024",
       desc: "Led a student organization focused on computer vision, data science, and applied machine learning.",
       descBullets: [
@@ -401,7 +401,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "reachaaryanpawar@outlook.com"
+  email_address: ""
 };
 
 // Twitter Section

@@ -23,7 +23,7 @@ const greeting = {
   username: "Aaryan Pawar",
   title: "Hi all, I'm Aaryan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web, Hardware, and Intelligence applications with JavaScript / React Native / Pytorch / C++ and some other cool libraries and frameworks."
+    "Full-stack software developer 🚀 at the intersection of web, hardware, and intelligence, building high-impact applications with JavaScript, React Native, PyTorch, C++, and cutting-edge tools."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -33,89 +33,128 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/EliteCoder21",
+  linkedin: "www.linkedin.com/in/aaryan-pawar-548553329",
+  email_address: "reachaaryanpawar@outlook.com",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "FULL STACK DEVELOPER & AI ENGINEER BUILDING SCALABLE, INTELLIGENT SYSTEMS",
+
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and build high-performance web and mobile applications with modern frontend and backend stacks"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop scalable backend services, APIs, and cloud-integrated systems"
+    ),
+    emoji(
+      "⚡ Engineer intelligent systems using machine learning, deep learning, and computer vision"
+    ),
+    emoji(
+      "⚡ Work across the stack from hardware-aware development to production-ready AI models"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
+    // Frontend
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "nodejs",
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+
+    // Backend & Databases
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
+
+    // Languages & Systems
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "C / C++",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "Verilog",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+
+    // AI / ML
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "Scikit-Learn",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "OpenCV",
+      fontAwesomeClassname: "fas fa-eye"
+    },
+
+    // DevOps & Tools
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
 
 // Education Section
@@ -124,23 +163,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "University of Washington",
+      logo: require("./assets/images/uwLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2024 - Present",
+      desc: "Ranked top 10% in the program. Took courses in Software Engineering, Algorithms, Deep Learning, and more.",
+      descBullets: ["Deans List for every quarter enrolled so far.", "3.95 GPA", "Conducted Research into Chess Reasoning with LLMs."]
     }
   ]
 };
@@ -151,15 +179,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Full Stack Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Pytorch & Machine Learning",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Digital & Hardware Design",
       progressPercentage: "60%"
     }
   ],
@@ -169,35 +197,48 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning Research Intern",
+      company: "Alitheon",
+      companylogo: require("./assets/images/alitheonLogo.jpg"),
+      date: "June 2024 – September 2024",
+      desc: "Worked on industrial computer vision systems for high-precision item authentication and registration in luxury goods.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a CNN-based imaging quality control system using Basler industrial cameras for rapid item registration of Richemont watches and luxury leather products",
+        "Deployed a low-compute imaging obstruction detection system for industrial stations, reducing latency by 95% while achieving 98.3% accuracy",
+        "Ensured customer visual registrations met strict quality standards for downstream authentication pipelines"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Software Development Intern",
+      company: "OpenEXA",
+      companylogo: require("./assets/images/openexaLogo.png"),
+      date: "July 2023 – July 2024",
+      desc: "Built and scaled core web infrastructure for a financial platform enabling asset-backed credit access.",
+      descBullets: [
+        "Developed and owned the primary web interface for a financial application allowing fund managers to securely access asset-backed credit lines",
+        "Created internal documentation and tutorials on Docker, JavaScript, and web architecture, improving intern onboarding efficiency by ~30%",
+        "Trained and mentored 5+ interns, led onboarding sessions, and provided technical guidance to accelerate early productivity",
+        "Streamlined the asset exchange workflow by implementing a web-native system for acquiring lines of credit"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "President & Lead Instructor",
+      company: "Interlake Computer Vision Club",
+      companylogo: require("./assets/images/interlakeLogo.png"),
+      date: "September 2022 – June 2024",
+      desc: "Led a student organization focused on computer vision, data science, and applied machine learning.",
+      descBullets: [
+        "Taught weekly data science and machine learning classes to high school students at Interlake High School",
+        "Expanded club membership from 25 to 40 students and introduced the school to official Kaggle competitions",
+        "Improved AI literacy and hands-on data science skills across the student body through project-based learning"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -223,17 +264,6 @@ const bigProjects = {
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -341,7 +371,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,7 +384,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,17 +401,17 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "reachaaryanpawar@outlook.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

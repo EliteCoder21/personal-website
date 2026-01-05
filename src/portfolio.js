@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Aaryan Pawar",
-  title: "Hi all, I'm Aaryan",
+  title: "Hi! I'm Aaryan",
   subTitle: emoji(
-    "Full-stack software developer 🚀 at the intersection of web, hardware, and intelligence, building high-impact applications with JavaScript, React Native, PyTorch, C++, and cutting-edge tools."
+    "Full-stack software developer 🚀 at the intersection of web, hardware, and intelligence, building high-impact applications with JavaScript, React Native, PyTorch, C++, and other cutting-edge tools."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -167,7 +167,7 @@ const educationInfo = {
       logo: require("./assets/images/uwLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2024 - Present",
-      desc: "Ranked top 10% in the program. Took courses in Software Engineering, Algorithms, Deep Learning, and more.",
+      desc: "Ranked top 10% in the program. Excelled in courses in Software Engineering, Algorithms, Deep Learning, and more.",
       descBullets: ["Deans List for every quarter enrolled so far.", "3.95 GPA", "Conducted Research into Chess Reasoning with LLMs."]
     }
   ]
